@@ -1,0 +1,241 @@
+(footprint "PCC-M0754M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8c7eae29-7fa2-4bf8-a4e0-59f8bc54d110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PCC-M0754M"
+		(at 0 4.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "24a6399c-734e-4b76-ada9-1d76d6ebda8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AGL0000/AGL0000C59.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e549c24f-3700-4a89-a416-10239f361025")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "207998c2-3ae6-492c-8d9a-a1815880b93a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.95 -3.7)
+		(end -3.95 -2.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "083c9f81-dd33-4d34-83d4-55ffefe77d9e")
+	)
+	(fp_line
+		(start -3.95 -3.7)
+		(end 3.95 -3.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e30f8ffa-3ef6-40c3-8184-0e55aeb0ddb1")
+	)
+	(fp_line
+		(start -3.95 3.7)
+		(end -3.95 2.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bc776e8b-da32-4a29-a5a3-b398b3d84165")
+	)
+	(fp_line
+		(start 3.95 -3.7)
+		(end 3.95 -2.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "06ec630b-7d44-447b-b797-d79c28750796")
+	)
+	(fp_line
+		(start 3.95 3.7)
+		(end -3.95 3.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4c40cdb7-fb89-45a3-92a7-77645bce52c3")
+	)
+	(fp_line
+		(start 3.95 3.7)
+		(end 3.95 2.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7550d963-6ca3-4bb2-96cd-1a11264ea282")
+	)
+	(fp_circle
+		(center 3.15 2.9)
+		(end 3.55 2.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1dace91a-74d6-4a6f-b829-14a04916e80e")
+	)
+	(fp_rect
+		(start -4.2 -4)
+		(end 4.2 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "62d7dbad-9e88-40a4-b0d4-fc243c76a7fe")
+	)
+	(fp_rect
+		(start -3.95 -3.7)
+		(end 3.95 3.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c199f050-013d-4ff8-bfc2-7a95d0d619a8")
+	)
+	(fp_rect
+		(start 2.8 -2.4)
+		(end 3.5 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "48179538-3886-4f81-b3af-daa6a104ac70")
+	)
+	(fp_circle
+		(center 3.15 2.9)
+		(end 3.55 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f3f93382-ce6b-4026-854a-591e943632cf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "793352ab-5bc1-45e8-b8a9-30467f3cb4f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.2 0)
+		(size 3.6 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "77a49f26-1dc3-46cf-84b6-5f06922ff4da")
+	)
+	(pad "2" smd rect
+		(at 3.2 0)
+		(size 3.6 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9bfdc491-1180-460b-bf75-e41911eee536")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "92e979be-c1de-4176-af1c-9753f50d55a8")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -4.2 -4) (xy 4.2 -4) (xy 4.2 -1.8) (xy 1.4 -1.8) (xy 1.4 1.8) (xy 4.2 1.8) (xy 4.2 4) (xy -4.2 4)
+				(xy -4.2 1.8) (xy -1.4 1.8) (xy -1.4 -1.8) (xy -4.2 -1.8) (xy -4.2 -4)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/extra.pretty/PCC-M0754M.step"
+		(offset
+			(xyz -1.1 7.6 1.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

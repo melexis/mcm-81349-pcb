@@ -1,0 +1,138 @@
+(footprint "JACK-L-LKWGPC-5A-R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -6.85 -5.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "57f35ea5-b3c4-4ec7-b769-1e6bc15f66e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JACK-L-LKWGPC-5A(R)"
+		(at -0.05 6.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9e674605-a6c3-46bd-a770-364d354cf00a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://spec.globtek.info/spec/pdf/JACK-L-LKWGPC-5A(R)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96a8388f-00e5-4887-bf7a-6aa1f3f5d06c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "377f3054-0415-4151-9b09-c5c1458780fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -8.8 4.5)
+		(end 5.5 -4.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d52e9863-196e-4eae-be28-58472a5c201a")
+	)
+	(fp_rect
+		(start -9.5 -4.8)
+		(end 7 4.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d8fbc0a3-1532-43b4-85a5-34f9617838e8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "280d9910-690b-4a5c-b65c-69765f28d0db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -4.5 0 270)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "2b5e601d-d012-4d63-90a3-8d299bd9f3b8")
+	)
+	(pad "1" thru_hole roundrect
+		(at 5.9 0 270)
+		(size 5.5 2.8)
+		(drill oval 3.5 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "8c5898d5-3dfc-4945-b76f-75bd26d5a51d")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0 270)
+		(size 5 2.8)
+		(drill oval 3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "44ae5e6c-e863-48b1-847f-be06d101ca8d")
+	)
+	(pad "3" thru_hole roundrect
+		(at 3 4.8)
+		(size 5 2.8)
+		(drill oval 3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "03d1c79d-f65e-4285-b2c3-2223b2b2f7ef")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/extra.pretty/JACK-L-LKWGPC-5A-R.step"
+		(offset
+			(xyz -4.7 0 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -90)
+		)
+	)
+)
