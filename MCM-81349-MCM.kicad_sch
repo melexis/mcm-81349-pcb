@@ -7256,7 +7256,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "430R"
 			(at 139.7 171.4499 0)
 			(effects
 				(font
@@ -7283,7 +7283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 430 OHM 1% 1/16W 0402"
 			(at 137.16 170.18 0)
 			(effects
 				(font
@@ -8602,7 +8602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "430R"
 			(at 101.6 171.4499 0)
 			(effects
 				(font
@@ -8629,7 +8629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 430 OHM 1% 1/16W 0402"
 			(at 99.06 170.18 0)
 			(effects
 				(font
@@ -8672,7 +8672,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "9k53"
 			(at 139.7 161.2899 0)
 			(effects
 				(font
@@ -8699,7 +8699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 9k53 OHM 1% 1/16W 0402"
 			(at 137.16 160.02 0)
 			(effects
 				(font
@@ -9219,7 +9219,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "9k53"
 			(at 101.6 161.2899 0)
 			(effects
 				(font
@@ -9246,7 +9246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 9k53 OHM 1% 1/16W 0402"
 			(at 99.06 160.02 0)
 			(effects
 				(font
