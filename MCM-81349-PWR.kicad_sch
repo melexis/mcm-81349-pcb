@@ -1232,7 +1232,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:LMR16006YQ"
+		(symbol "Regulator_Switching:LV2862XDDC"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1248,7 +1248,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LMR16006YQ"
+			(property "Value" "LV2862XDDC"
 				(at -10.16 8.89 0)
 				(effects
 					(font
@@ -1267,7 +1267,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lv2862.pdf"
 				(at -10.16 11.43 0)
 				(effects
 					(font
@@ -1276,7 +1276,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Adjustable output voltage, SOT-23-6 package"
+			(property "Description" "60V, 0.6A, stepdown, DC/DC converter, 770kHz"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1285,7 +1285,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "simple-switcher buck step-down voltage-regulator"
+			(property "ki_keywords" "step down DCDC converter regulator"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1303,7 +1303,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LMR16006YQ_0_1"
+			(symbol "LV2862XDDC_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -1316,7 +1316,7 @@
 					)
 				)
 			)
-			(symbol "LMR16006YQ_1_1"
+			(symbol "LV2862XDDC_1_1"
 				(pin power_in line
 					(at -12.7 5.08 0)
 					(length 2.54)
@@ -2875,87 +2875,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:LMR16006YQ")
-		(at 116.84 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a4751ea-c959-4b30-bd28-ec8e21904991")
-		(property "Reference" "U2"
-			(at 116.84 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMR16006YDDCR"
-			(at 116.84 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 116.84 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf"
-			(at 106.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Adjustable output voltage, SOT-23-6 package"
-			(at 116.84 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "276aee9d-dce7-46c0-bb59-9ce2ea7145da")
-		)
-		(pin "2"
-			(uuid "22c8ed33-1893-4ff8-bfdb-6b08d236ab6d")
-		)
-		(pin "3"
-			(uuid "406f6c88-0bb4-40f6-8de7-6e1a6122956d")
-		)
-		(pin "4"
-			(uuid "44472771-a344-4705-8f5f-8212067c2c82")
-		)
-		(pin "5"
-			(uuid "70b49cd3-bb23-4d30-9ce7-5d33642da729")
-		)
-		(pin "6"
-			(uuid "b63765ee-2f7f-420a-b2b1-e529d469cdf5")
-		)
-		(instances
-			(project "MCM-81349"
-				(path "/10a668bb-e341-4631-a862-dadf8a9a10bc/72c7d519-8696-4dcf-8164-31de870ed890"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 262.89 95.25 270)
 		(mirror x)
@@ -3638,6 +3557,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Switching:LV2862XDDC")
+		(at 116.84 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f61c07a-f427-44d9-aee1-6dfb2cb7abda")
+		(property "Reference" "U2"
+			(at 116.84 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LV2862XLVDDCR"
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lv2862.pdf"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V, 0.6A, stepdown, DC/DC converter, 770kHz"
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "62a950d6-1316-4284-ab9c-cdac3e6c75dd")
+		)
+		(pin "5"
+			(uuid "62a22b05-b6ce-49f4-b1d0-6dc02795e728")
+		)
+		(pin "6"
+			(uuid "276b0be4-4110-42d1-ae97-151fb8802671")
+		)
+		(pin "4"
+			(uuid "0d4abf28-5e22-4320-a8b5-fe730d462e6e")
+		)
+		(pin "2"
+			(uuid "4dd63a9d-ad95-4a3f-b009-f24df66dc3fd")
+		)
+		(pin "1"
+			(uuid "5e2ac0c0-898a-4dc4-b02c-6f59ac7bdced")
+		)
+		(instances
+			(project "MCM-81349"
+				(path "/10a668bb-e341-4631-a862-dadf8a9a10bc/72c7d519-8696-4dcf-8164-31de870ed890"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 81.28 76.2 180)
 		(unit 1)
@@ -3794,7 +3794,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8uH"
+		(property "Value" "47uH"
 			(at 148.59 78.74 90)
 			(effects
 				(font
@@ -3820,7 +3820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "HPC 4018NF-6R8M"
+		(property "Description" "HPC4018NF-470M"
 			(at 146.05 81.28 0)
 			(effects
 				(font
@@ -4674,7 +4674,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k5"
 			(at 158.75 97.7899 0)
 			(effects
 				(font
@@ -4701,7 +4701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 1% 1/16W 0402"
+		(property "Description" "RES SMD 10K5 OHM 1% 1/16W 0402"
 			(at 156.21 96.52 0)
 			(effects
 				(font
@@ -5288,7 +5288,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "54k9"
+		(property "Value" "57k6"
 			(at 158.75 87.6299 0)
 			(effects
 				(font
@@ -5315,7 +5315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 54.9K OHM 1% 1/16W 0402"
+		(property "Description" "RES 57.6K OHM 1% 1/16W 0402"
 			(at 156.21 86.36 0)
 			(effects
 				(font

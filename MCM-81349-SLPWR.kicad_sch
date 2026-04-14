@@ -3372,7 +3372,7 @@
 			(uuid "c9bbab35-fb5c-40c6-911e-28bf7ff1ebb3")
 		)
 		(instances
-			(project ""
+			(project "MCM-81349"
 				(path "/10a668bb-e341-4631-a862-dadf8a9a10bc/21b6716c-4e9d-4023-be1b-784c50e050b4"
 					(reference "U7")
 					(unit 1)
@@ -3609,7 +3609,7 @@
 			(uuid "c13db66a-c269-444b-b0be-613864e3caeb")
 		)
 		(instances
-			(project ""
+			(project "MCM-81349"
 				(path "/10a668bb-e341-4631-a862-dadf8a9a10bc/21b6716c-4e9d-4023-be1b-784c50e050b4"
 					(reference "Q8")
 					(unit 1)
