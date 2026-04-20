@@ -8806,7 +8806,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "MCM-81349"
 				(path "/758c72e3-ca60-4bda-8821-6ed656e52e76"
 					(reference "U1")
 					(unit 1)
