@@ -3802,7 +3802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "extra:HPC4018NF-Series"
+		(property "Footprint" "Extra:WE-LQS"
 			(at 146.05 81.28 0)
 			(effects
 				(font
@@ -3811,7 +3811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tai-tech.com.tw/pdf/263710/HPC4018NF-SERIES.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74404042470.pdf"
 			(at 146.05 81.28 0)
 			(effects
 				(font
@@ -3820,7 +3820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "HPC4018NF-470M"
+		(property "Description" "74404042470"
 			(at 146.05 81.28 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-04-20T14:09:03+0200 ###
+### Footprint positions - created on 2026-04-20T15:30:54+0200 ###
 ### Printed by KiCad version 9.0.8-9.0.8~ubuntu25.10.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -77,7 +77,7 @@ J8        ~                       TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.
 J9        /                       TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal   120.0000   -98.5000   90.0000  top
 J10       JACK-L-LKWGPC-5A(R)     JACK-L-LKWGPC-5A-R                                               67.5000   -87.0000    0.0000  top
 J11       Conn_02x02_Odd_Even     PinHeader_2x02_P2.54mm_Vertical                                  84.7750   -83.8250   90.0000  top
-L1        6.8uH                   HPC4018NF-Series                                                 73.7986   -75.7152   90.0000  top
+L1        47uH                    WE-LQS                                                           73.7986   -75.7152   90.0000  top
 L2        100uH                   L_Taiyo-Yuden_NR-40xx                                            91.4000   -75.6010    0.0000  top
 L3        4700nH                  PCC-M0754M                                                       98.4900   -89.7050    0.0000  top
 LOG1      MLX_Logo                LOGO-SILK                                                       103.1288   -48.1000    0.0000  top
@@ -88,8 +88,8 @@ Q8        BC846BLT1G              SOT-23-3                                      
 R1        2k                      R_0603_1608Metric                                                71.9500   -46.9000  -90.0000  top
 R2        100k                    R_0402_1005Metric                                                72.8080   -80.7020   90.0000  top
 R3        2k7                     R_0402_1005Metric                                                79.9000   -68.2500  -90.0000  top
-R4        54k9                    R_0402_1005Metric                                                66.8500   -80.6500   90.0000  top
-R5        10k                     R_0402_1005Metric                                                65.8000   -80.6500  -90.0000  top
+R4        39k                     R_0402_1005Metric                                                66.8500   -80.6500   90.0000  top
+R5        6k2                     R_0402_1005Metric                                                65.8000   -80.6500  -90.0000  top
 R6        4k7                     R_0402_1005Metric                                                76.4624   -52.3100  180.0000  top
 R7        4k7                     R_0402_1005Metric                                                82.6450  -105.2950  180.0000  top
 R8        4k7                     R_0402_1005Metric                                                82.6450  -104.0950  180.0000  top
@@ -105,10 +105,10 @@ R17       2k                      R_0603_1608Metric                             
 R18       10R                     R_0402_1005Metric                                                81.9500   -75.5550  180.0000  top
 R19       2k                      R_0603_1608Metric                                                98.7806   -50.5155  -90.0000  top
 R20       10R                     R_0402_1005Metric                                                84.3000   -75.5550    0.0000  top
-R22       TBD                     R_0402_1005Metric                                                76.6000   -55.9500    0.0000  top
-R23       TBD                     R_0402_1005Metric                                                76.5900   -54.9500  180.0000  top
-R24       TBD                     R_0402_1005Metric                                                76.5900   -57.9500    0.0000  top
-R25       TBD                     R_0402_1005Metric                                                76.5900   -59.9500  180.0000  top
+R22       9k53                    R_0402_1005Metric                                                76.6000   -55.9500    0.0000  top
+R23       430R                    R_0402_1005Metric                                                76.5900   -54.9500  180.0000  top
+R24       9k53                    R_0402_1005Metric                                                76.5900   -57.9500    0.0000  top
+R25       430R                    R_0402_1005Metric                                                76.5900   -59.9500  180.0000  top
 R26       87k6                    R_0402_1005Metric                                                76.5900   -61.9500    0.0000  top
 R27       110k                    R_0402_1005Metric                                                76.5900   -60.9500  180.0000  top
 R28       100R                    R_0603_1608Metric                                                81.4000   -83.3500  180.0000  top
@@ -143,7 +143,7 @@ R56       0R                      R_0603_1608Metric                             
 R57       8k2                     R_0603_1608Metric                                               119.5000   -85.7000    0.0000  top
 R58       1k5                     R_0603_1608Metric                                               116.1000   -88.6000   90.0000  top
 U1        AZ1117CR-3.3TRG1        SOT-89-3                                                         74.6500   -69.9109  -90.0000  top
-U2        LMR16006YDDCR           SOT-23-6                                                         70.1410   -80.1940    0.0000  top
+U2        LV2862XLVDDCR           SOT-23-6                                                         70.1410   -80.1940    0.0000  top
 U3        TMUX1219DCKR            SOT-363_SC-70-6                                                  82.1000   -69.7500    0.0000  top
 U4        MLX81349-KLW-AMX-000    QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias                  93.2000   -70.2000  180.0000  top
 U5        ESP32-S3-WROOM-1-N16R8  ESP32-S3-WROOM-2                                                 87.6328   -51.9660    0.0000  top
