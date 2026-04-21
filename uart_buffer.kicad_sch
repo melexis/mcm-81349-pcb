@@ -4523,7 +4523,7 @@
 			(uuid "8e743cac-f9bd-4fa5-9277-31b6f169f89b")
 		)
 		(instances
-			(project ""
+			(project "MCM-81349"
 				(path "/10a668bb-e341-4631-a862-dadf8a9a10bc/74683260-d315-4416-86ca-c00b84df531e"
 					(reference "J11")
 					(unit 1)
@@ -5150,7 +5150,7 @@
 			(uuid "7139b128-e34a-43ce-b484-8636026ccbfe")
 		)
 		(instances
-			(project ""
+			(project "MCM-81349"
 				(path "/10a668bb-e341-4631-a862-dadf8a9a10bc/74683260-d315-4416-86ca-c00b84df531e"
 					(reference "J9")
 					(unit 1)
