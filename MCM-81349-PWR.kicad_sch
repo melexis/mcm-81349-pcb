@@ -4701,7 +4701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K5 OHM 1% 1/16W 0402"
+		(property "Description" "RES SMD 6K2 OHM 1% 1/16W 0402"
 			(at 156.21 96.52 0)
 			(effects
 				(font
@@ -5315,7 +5315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 57.6K OHM 1% 1/16W 0402"
+		(property "Description" "RES 39K OHM 1% 1/16W 0402"
 			(at 156.21 86.36 0)
 			(effects
 				(font

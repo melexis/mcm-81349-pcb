@@ -1755,7 +1755,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 57.6K OHM 1% 1/16W 0402"
+		(property "Description" "RES 39K OHM 1% 1/16W 0402"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23145,7 +23145,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 10K5 OHM 1% 1/16W 0402"
+		(property "Description" "RES SMD 6K2 OHM 1% 1/16W 0402"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29438,7 +29438,7 @@
 			)
 		)
 	)
-	(footprint "Extra:WE-LQS"
+	(footprint "extra:WE-LQS"
 		(layer "F.Cu")
 		(uuid "b96cdc02-a758-4da8-9e98-7f618bb9eef5")
 		(at 73.7986 75.7152 90)
