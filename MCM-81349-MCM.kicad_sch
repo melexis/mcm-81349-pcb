@@ -3491,6 +3491,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 106.68) (xy 134.62 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfd6c21-a7f6-4f69-b1aa-7c40a4b8b74a")
+	)
+	(wire
+		(pts
 			(xy 96.52 66.04) (xy 83.82 66.04)
 		)
 		(stroke
@@ -4397,6 +4407,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SLAVE_DISCHARGE"
+		(shape input)
+		(at 134.62 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28f183a1-6834-47cf-a5b0-0c394f6a26e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 129.199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
