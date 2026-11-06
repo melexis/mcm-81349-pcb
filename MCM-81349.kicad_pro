@@ -528,12 +528,12 @@
       "gencad": "",
       "idf": "",
       "netlist": "../../../../",
-      "plot": "fabrication/v1_0/",
-      "pos_files": "fabrication/v1_0/",
+      "plot": "fabrication/v1_1/",
+      "pos_files": "fabrication/v1_1/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "MCM-81349.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "MCM-81349.wrl"
     },
     "page_layout_descr_file": ""
   },
